@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coolkid.InicialController">
+   <children>
+      <Button layoutX="10.0" layoutY="398.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="378.0" text="Entrar">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="118.0" layoutY="117.0" text="COOL KID">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <TextField layoutX="75.0" layoutY="198.0" prefHeight="25.0" prefWidth="250.0" />
+      <PasswordField layoutX="75.0" layoutY="253.0" prefHeight="25.0" prefWidth="250.0" />
+      <Label fx:id="lb_email" layoutX="75.0" layoutY="181.0" text="Email" />
+      <Label fx:id="lb_senha" layoutX="75.0" layoutY="236.0" text="Senha" />
+      <Hyperlink fx:id="hpl_cadastro" layoutX="98.0" layoutY="298.0" onAction="#Cadastro" text="Ainda não é cadastrado? Clique aqui" />
+      <Hyperlink layoutX="99.0" layoutY="321.0" text="Clique aqui para logar como criança" />
+      <Hyperlink layoutX="146.0" layoutY="278.0" text="Esqueceu a senha?" />
+   </children>
+</Pane>
