@@ -5,4 +5,8 @@
 <?import javafx.scene.layout.*?>
 
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coolkid.ConfiguracoesController" />
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coolkid.ConfiguracoesController">
+   <children>
+      <Button layoutX="130.0" layoutY="479.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="38.0" prefWidth="140.0" text="Cancelar" />
+   </children>
+</Pane>

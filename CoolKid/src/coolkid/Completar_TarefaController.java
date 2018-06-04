@@ -21,7 +21,7 @@ public class Completar_TarefaController {
     @FXML
     private void Voltar(ActionEvent event){
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("Home.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Perfil_Crianca.fxml"));
             Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
             Scene scene = new Scene(loader.load());
             stage.setScene(scene);

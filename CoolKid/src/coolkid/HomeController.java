@@ -29,4 +29,39 @@ public class HomeController {
             io.printStackTrace();
         }    
     }
+    
+    @FXML
+    private void AddTarefa(ActionEvent event){
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Cadastro_Tarefa.fxml"));
+            Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+        }catch (IOException io){
+            io.printStackTrace();
+        }    
+    }
+    
+    @FXML
+    private void AddFilho(ActionEvent event){
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Cadastro_Crianca.fxml"));
+            Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+        }catch (IOException io){
+            io.printStackTrace();
+        }    
+    }
+    @FXML
+    private void VerificarTarefa(ActionEvent event){
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Visualiza_Tarefa.fxml"));
+            Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+        }catch (IOException io){
+            io.printStackTrace();
+        }    
+    }
 }

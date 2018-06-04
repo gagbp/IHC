@@ -8,7 +8,7 @@
    <children>
       <TextField layoutX="62.0" layoutY="213.0" prefHeight="25.0" prefWidth="277.0" />
       <Label layoutX="159.0" layoutY="196.0" text="Digite o código" />
-      <Button layoutX="212.0" layoutY="424.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="140.0" text="Cancelar" />
-      <Button layoutX="51.0" layoutY="424.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="140.0" text="Confirmar" />
+      <Button layoutX="212.0" layoutY="424.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="38.0" prefWidth="140.0" text="Cancelar" />
+      <Button layoutX="51.0" layoutY="424.0" mnemonicParsing="false" onAction="#Confirmar" prefHeight="38.0" prefWidth="140.0" text="Confirmar" />
    </children>
 </Pane>
