@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coolkid.Verificar_TarefasController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coolkid.Verificar_Tarefas">
    <children>
       <Button layoutX="130.0" layoutY="479.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="38.0" prefWidth="140.0" text="Cancelar" />
+      <Button layoutX="130.0" layoutY="430.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="38.0" prefWidth="140.0" text="Completar" />
+      <Canvas height="150.0" layoutX="60.0" layoutY="113.0" width="300.0" />
+      <Label layoutX="60.0" layoutY="81.0" text="Foto:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="287.0" text="Descrição da tarefa:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="60.0" layoutY="315.0" prefHeight="100.0" prefWidth="300.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="150.0" layoutX="60.0" layoutY="113.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Label layoutX="60.0" layoutY="54.0" text="Titulo:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="54.0" text="Fazer dever de casa">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </Pane>

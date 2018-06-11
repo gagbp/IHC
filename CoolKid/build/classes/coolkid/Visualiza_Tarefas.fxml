@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coolkid.Visualiza_TarefasController">
    <children>
-      <Button layoutX="220.0" layoutY="423.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="38.0" prefWidth="140.0" text="Cancelar" />
+      <Button layoutX="131.0" layoutY="501.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="38.0" prefWidth="140.0" text="Voltar" />
+      <ComboBox layoutX="37.0" layoutY="60.0" prefHeight="38.0" prefWidth="327.0" />
+      <Label layoutX="37.0" layoutY="33.0" text="Tarefa:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="143.0" text="Titulo:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="180.0" text="Pontuação:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="216.0" text="Descrição:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="37.0" layoutY="243.0" prefHeight="200.0" prefWidth="327.0" />
+      <Label layoutX="143.0" layoutY="180.0" text="125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="143.0" text="Fazer dever de casa">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </Pane>

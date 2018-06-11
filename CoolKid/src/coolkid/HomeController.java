@@ -56,7 +56,7 @@ public class HomeController {
     @FXML
     private void VerificarTarefa(ActionEvent event){
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("Visualiza_Tarefa.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Verificar_Tarefas.fxml"));
             Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
             Scene scene = new Scene(loader.load());
             stage.setScene(scene);

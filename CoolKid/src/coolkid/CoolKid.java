@@ -17,6 +17,8 @@ import javafx.stage.Stage;
  */
 public class CoolKid extends Application {
     
+    public boolean Tipo;
+    
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Inicial.fxml"));
@@ -32,6 +34,14 @@ public class CoolKid extends Application {
      */
     public static void main(String[] args) {
         launch(args);
+    }
+    
+    public void setTipo(boolean t){
+        Tipo = t;
+    }
+    
+    public boolean getTipo(){
+        return Tipo;
     }
     
 }

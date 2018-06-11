@@ -4,10 +4,8 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coolkid.Cadastro_TarefaController">
    <children>
-      <RadioButton layoutX="52.0" layoutY="381.0" mnemonicParsing="false" text="D" />
       <ComboBox layoutX="50.0" layoutY="74.0" prefHeight="25.0" prefWidth="300.0" />
       <Label layoutX="50.0" layoutY="57.0" text="Filho:" />
       <TextField layoutX="50.0" layoutY="131.0" prefHeight="25.0" prefWidth="300.0" />
@@ -16,14 +14,15 @@
       <TextArea layoutX="50.0" layoutY="190.0" prefHeight="108.0" prefWidth="300.0" />
       <DatePicker layoutX="50.0" layoutY="331.0" prefHeight="25.0" prefWidth="150.0" />
       <Label layoutX="52.0" layoutY="314.0" text="Data de termino:" />
-      <RadioButton layoutX="209.0" layoutY="335.0" mnemonicParsing="false" text="Repetir Semanalmente" />
-      <RadioButton layoutX="96.0" layoutY="381.0" mnemonicParsing="false" text="S" />
-      <RadioButton layoutX="141.0" layoutY="381.0" mnemonicParsing="false" text="T" />
-      <RadioButton layoutX="186.0" layoutY="381.0" mnemonicParsing="false" text="Q" />
-      <RadioButton layoutX="228.0" layoutY="381.0" mnemonicParsing="false" text="Q" />
-      <RadioButton layoutX="265.0" layoutY="381.0" mnemonicParsing="false" text="S" />
-      <RadioButton layoutX="305.0" layoutY="381.0" mnemonicParsing="false" text="S" />
-      <Button layoutX="220.0" layoutY="423.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="38.0" prefWidth="140.0" text="Cancelar" />
-      <Button layoutX="60.0" layoutY="423.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="140.0" text="Confirmar" />
+      <RadioButton fx:id="rdRepetir" layoutX="229.0" layoutY="335.0" mnemonicParsing="false" onAction="#Repetir" text="Repetir" />
+      <RadioButton fx:id="rdDomingo" layoutX="52.0" layoutY="377.0" mnemonicParsing="false" text="D" />
+      <RadioButton fx:id="rdSegunda" layoutX="96.0" layoutY="377.0" mnemonicParsing="false" text="S" />
+      <RadioButton fx:id="rdTerca" layoutX="141.0" layoutY="377.0" mnemonicParsing="false" text="T" />
+      <RadioButton fx:id="rdQuarta" layoutX="186.0" layoutY="377.0" mnemonicParsing="false" text="Q" />
+      <RadioButton fx:id="rdQuinta" layoutX="228.0" layoutY="377.0" mnemonicParsing="false" text="Q" />
+      <RadioButton fx:id="rdSexta" layoutX="265.0" layoutY="377.0" mnemonicParsing="false" text="S" />
+      <RadioButton fx:id="rdSabado" layoutX="305.0" layoutY="377.0" mnemonicParsing="false" text="S" />
+      <Button layoutX="220.0" layoutY="450.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="38.0" prefWidth="140.0" text="Cancelar" />
+      <Button layoutX="60.0" layoutY="450.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="140.0" text="Confirmar" />
    </children>
 </Pane>

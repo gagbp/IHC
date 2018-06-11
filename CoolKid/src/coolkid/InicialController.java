@@ -16,6 +16,7 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
+import coolkid.CoolKid;
 
 /**
  *
@@ -56,6 +57,7 @@ public class InicialController implements Initializable {
             Stage stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
             Scene scene = new Scene(loader.load());
             stage.setScene(scene);
+            
         }catch (IOException io){
             io.printStackTrace();
         }    
