@@ -2,6 +2,16 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/HomeController.java</file>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/ConfiguracoesController.java</file>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/Verificar_Tarefas.java</file>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/Cadastro_TarefaController.java</file>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/Login_CriancaController.java</file>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/Perfil_CriancaController.java</file>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/Visualiza_TarefasController.java</file>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/InicialController.java</file>
+            <file>file:/D:/IHC/CoolKid/src/coolkid/CoolKid.java</file>
+        </group>
     </open-files>
 </project-private>
